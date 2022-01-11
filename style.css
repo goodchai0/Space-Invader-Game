@@ -1,0 +1,41 @@
+.grid{
+    width: 400px;
+    height: 400px;
+    border: solid black 3px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.invader{
+    background-color: purple;
+    border-radius: 7px;
+}
+
+.shooter{
+    background-color: green;
+}
+
+.laser{
+    background-color: orange;
+    border-radius: 10px;
+}
+.boom{
+    background-color: red;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: grey;
+    justify-content: center;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+span{
+    color: rgb(139, 92, 4);
+}
